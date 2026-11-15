@@ -1,16 +1,16 @@
 {
   "protocol": "LPHBUS01",
   "projectId": "e42a0367-5da8-4439-9d71-9148ba5f756a",
-  "releaseId": "1f1d4f1c20dc87a33539a21ba272b32dba19d4619adde5b619457397da0f072d",
-  "sequence": 3,
-  "issuedAt": "2026-11-15T11:56:32.871Z",
-  "keyId": "6b0f6e8ccc15b8f221b278cd7b3a2b65",
+  "releaseId": "1bfc7669c40b3bb7f84d4a1ffbcc5a567f1f9ce06fd04ba0444c35fb31f0907e",
+  "sequence": 4,
+  "issuedAt": "2026-11-15T12:53:36.989Z",
+  "keyId": "2f98bb4c11c7eb595df863ab4395d4d1",
   "index": {
-    "path": "_lph/releases/1f1d4f1c20dc87a33539a21ba272b32dba19d4619adde5b619457397da0f072d/business-index.enc",
-    "size": 3683,
-    "sha256": "5bf6d7da9193263bb78f98bf65aa1a439d6ff8ad4254e43fe5a28408cb251070"
+    "path": "_lph/releases/1bfc7669c40b3bb7f84d4a1ffbcc5a567f1f9ce06fd04ba0444c35fb31f0907e/business-index.enc",
+    "size": 5350,
+    "sha256": "54d7a6594641c3bbd52f019adff34bfe368094b2ee80080e5d61e0945510f4f6"
   },
-  "fileCount": 2,
+  "fileCount": 3,
   "signing": {
     "algorithm": "Ed25519",
     "publicKey": "MCowBQYDK2VwAyEA9tiAVe6Uu_CqZCn2qTl0XkYLuDh4sXaG3nzXN0nB7to",
@@ -21,11 +21,11 @@
       "appId": "526e8487-4478-498f-8d98-cbfa3551840f",
       "credentialVersion": 1,
       "algorithm": "AES-256-GCM",
-      "nonce": "GMjUwj7YghHqRGSl",
-      "wrappedKey": "IMzQncWPgiXxsU3mcm6koICSXpPRdhan10GOc3wdylOeHD3eIXoje1E3eWghCcyP",
-      "aad": "LPHBUS01|e42a0367-5da8-4439-9d71-9148ba5f756a|526e8487-4478-498f-8d98-cbfa3551840f|1f1d4f1c20dc87a33539a21ba272b32dba19d4619adde5b619457397da0f072d|3|6b0f6e8ccc15b8f221b278cd7b3a2b65"
+      "nonce": "4zvtbW6hnZ1pTBZ7",
+      "wrappedKey": "oINwhzbA9bhGXR2e6edrg5GiDeBqAzeITPu2Nu12vzn3ZknIAsYDq9Ua9SLywY2n",
+      "aad": "LPHBUS01|e42a0367-5da8-4439-9d71-9148ba5f756a|526e8487-4478-498f-8d98-cbfa3551840f|1bfc7669c40b3bb7f84d4a1ffbcc5a567f1f9ce06fd04ba0444c35fb31f0907e|4|2f98bb4c11c7eb595df863ab4395d4d1"
     }
   ],
-  "status": "complete",
-  "signature": "TRsXefuJHBJxjMse3/+nQRO0Ng2TXL9rDOa2bXUXg+/uBX1S+3AqdPs4YQ/kDTbHTotQs46442wYW7wCN6f4Cw=="
+  "status": "candidate",
+  "signature": "ow0N+OUfoPxjdgl9ph2IItouUqiHlSi8diSPHx8vhcWXOoQZGoHJ+JTYpz3E7WL0fyyi5XepbaXbDaJyB9hVBA=="
 }
