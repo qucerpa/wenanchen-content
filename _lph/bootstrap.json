@@ -1,16 +1,16 @@
 {
   "protocol": "LPHBUS01",
   "projectId": "060a808c-a7e6-485e-b7b0-0b3e4bdc8fae",
-  "releaseId": "0628ca71cef648e1c9a7d3a11f705b786c491b8eae5d1c159c373cb0aab894d8",
-  "sequence": 5,
-  "issuedAt": "2026-11-15T18:04:11.148Z",
-  "keyId": "80ad87ae154a60294312fcf6b4faae0f",
+  "releaseId": "fffefffd32b84c7b066547b925b3a264d4f5725eb2f3b613cbc9bba92c0bfa25",
+  "sequence": 6,
+  "issuedAt": "2026-11-15T18:38:12.435Z",
+  "keyId": "5b8783e697770ebc92627159c4a750c6",
   "index": {
-    "path": "_lph/releases/0628ca71cef648e1c9a7d3a11f705b786c491b8eae5d1c159c373cb0aab894d8/business-index.enc",
-    "size": 8812,
-    "sha256": "423ea25b01840c2341e47656c65664d1dc9cba79132a885c3a59c70f03995e21"
+    "path": "_lph/releases/fffefffd32b84c7b066547b925b3a264d4f5725eb2f3b613cbc9bba92c0bfa25/business-index.enc",
+    "size": 17403,
+    "sha256": "9f375013f340341066a3ce97bb68b7847dfebbf9867e8f606624cba1821edbe0"
   },
-  "fileCount": 7,
+  "fileCount": 14,
   "signing": {
     "algorithm": "Ed25519",
     "publicKey": "MCowBQYDK2VwAyEA9tiAVe6Uu_CqZCn2qTl0XkYLuDh4sXaG3nzXN0nB7to",
@@ -21,11 +21,11 @@
       "appId": "526e8487-4478-498f-8d98-cbfa3551840f",
       "credentialVersion": 1,
       "algorithm": "AES-256-GCM",
-      "nonce": "XHUJLGj3EoejRAxU",
-      "wrappedKey": "093-9AKLeD0_owG4b0Y4jqffUqeqLk75jXjkyvkKwLoJ6oriG0ousJTgEH5A8Q8t",
-      "aad": "LPHBUS01|060a808c-a7e6-485e-b7b0-0b3e4bdc8fae|526e8487-4478-498f-8d98-cbfa3551840f|0628ca71cef648e1c9a7d3a11f705b786c491b8eae5d1c159c373cb0aab894d8|5|80ad87ae154a60294312fcf6b4faae0f"
+      "nonce": "33ZGlcgpelaKE2gv",
+      "wrappedKey": "hpv0CAWZvQ_flpvzvT7Fo5EzDrApc-hmq8IzubpHPgPND6s83Yql05siLSkhNEqO",
+      "aad": "LPHBUS01|060a808c-a7e6-485e-b7b0-0b3e4bdc8fae|526e8487-4478-498f-8d98-cbfa3551840f|fffefffd32b84c7b066547b925b3a264d4f5725eb2f3b613cbc9bba92c0bfa25|6|5b8783e697770ebc92627159c4a750c6"
     }
   ],
-  "status": "complete",
-  "signature": "YiClTmax9eVhOQyw7XIi43S0VUP6mOxykeUiUARhS2MdWpqiziPDN16tJl3rVPKVukJ+ywOtArsfT6phIzSXAQ=="
+  "status": "candidate",
+  "signature": "yADRU6qBxqwRoPNDF9M3ZpLwvwqI1dpjdigE+ZJrTLn43bq7zpgOMaCWDsw86u9hKf2jXiamy8GJg2tBJbZEAA=="
 }
