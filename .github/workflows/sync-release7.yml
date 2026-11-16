@@ -12,10 +12,10 @@ jobs:
           ref: main
       - name: Stage immutable npm ciphertext without switching bootstrap
         env:
-          RELEASE_VERSION: 0.0.0-raba616459ef5c2f130f7b12cacfadfb06d791d695a450b54a9b0baf8a027b3d2
+          RELEASE_VERSION: 0.0.0-raba616459ef5c2f130f7b12cacfadfb06d791d69
         run: |
           set -euo pipefail
-          test "$RELEASE_VERSION" = "0.0.0-raba616459ef5c2f130f7b12cacfadfb06d791d695a450b54a9b0baf8a027b3d2"
+          test "$RELEASE_VERSION" = "0.0.0-raba616459ef5c2f130f7b12cacfadfb06d791d69"
           rm -rf /tmp/wc-release && mkdir -p /tmp/wc-release
           curl --fail --location --retry 3 --output /tmp/wc-release.tgz "https://registry.npmjs.org/@cml227/wenanchen-content/-/wenanchen-content-${RELEASE_VERSION}.tgz"
           tar -xzf /tmp/wc-release.tgz -C /tmp/wc-release
