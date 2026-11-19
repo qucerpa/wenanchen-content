@@ -1,9 +1,9 @@
 {
   "protocol": "LPHBUS02",
   "projectId": "060a808c-a7e6-485e-b7b0-0b3e4bdc8fae",
-  "releaseId": "d9c26e8b863a117e7ae25f18ed52f575983493da17afbf508367555cbd4ecf48",
-  "sequence": 8,
-  "issuedAt": "2026-11-18T18:40:30.911Z",
+  "releaseId": "4e8c418e916c3ee9dbcc1ec78d25fe66eb1499dc6b91968e33be7d1347e85695",
+  "sequence": 9,
+  "issuedAt": "2026-11-19T01:12:11.918Z",
   "keyId": "e057a1b1e5d405cb650ae765209ccb69",
   "shardRule": {
     "algorithm": "sha256",
@@ -8221,11 +8221,11 @@
       "appId": "526e8487-4478-498f-8d98-cbfa3551840f",
       "credentialVersion": 1,
       "algorithm": "AES-256-GCM",
-      "nonce": "DRe79OPK1Fp-fjVt",
-      "wrappedKey": "LAsn-Qi2EYX8dR9F5PUw4XscXS8ca1PVib6eZ2ikxPUvIF_1k26sbKHP0P76DmIx",
-      "aad": "LPHBUS02|060a808c-a7e6-485e-b7b0-0b3e4bdc8fae|526e8487-4478-498f-8d98-cbfa3551840f|d9c26e8b863a117e7ae25f18ed52f575983493da17afbf508367555cbd4ecf48|8|e057a1b1e5d405cb650ae765209ccb69"
+      "nonce": "0cU2kiyPwCGz1_SM",
+      "wrappedKey": "GVNMHRqsSmFMm_PW2WhqB5xRoJPugjR_JA3tGYmIFWSd14bC3KygDGgYKnJSAF-W",
+      "aad": "LPHBUS02|060a808c-a7e6-485e-b7b0-0b3e4bdc8fae|526e8487-4478-498f-8d98-cbfa3551840f|4e8c418e916c3ee9dbcc1ec78d25fe66eb1499dc6b91968e33be7d1347e85695|9|e057a1b1e5d405cb650ae765209ccb69"
     }
   ],
   "status": "complete",
-  "signature": "O/1iuXn0gn4jaKtn/JVpm9Fwyvq08gLAkxuTv43CmrNDa86gmAtvi+ZpyFc6YEkWhGH1fplBlmV2UZlQSe8CDw=="
+  "signature": "HuhYtWV6PMXJiqPRohwUdkHX/WVWUyUNG9xH+2YAhM8i7xR60JLPARNdb1g/yFPFz/WAtng6i/cl2OufXITCAA=="
 }
